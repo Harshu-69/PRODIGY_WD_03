@@ -18,13 +18,13 @@ HTML5 – Structure of the game layout
 CSS3 – Styling, layout, and responsiveness
 JavaScript – Game logic, DOM manipulation, and win detection
 
-
-Live Demo :- 
-
-
+🔗 Live Demo & GitHub Repository
+🚀 Live Demo: https://lnkd.in/g7np6k4V
+📂 GitHub: https://lnkd.in/gESJWRHj
 
 ##Screenshots:
 <img width="940" height="434" alt="image" src="https://github.com/user-attachments/assets/efd58403-7a4f-4afc-8bae-acc1c959d3dc" />
 
 <img width="940" height="432" alt="image" src="https://github.com/user-attachments/assets/65d1f1e3-5f83-45c5-b94e-8d41369b92fa" />
+
 
