@@ -1,0 +1,168 @@
+:root {
+  --playerXColor: #3498db;
+  --playerOColor: #e74c3c;
+  --boardColor: #ecf0f1;
+  --cellColor: #ffffff;
+}
+
+.theme-1 {
+  --playerXColor: #1abc9c;
+  --playerOColor: #9b59b6;
+  --boardColor: #34495e;
+  --cellColor: #dfe6e9;
+}
+
+.theme-2 {
+  --playerXColor: #f39c12;
+  --boardColor: #f5f5f5;
+  --cellColor: #2c3e50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  text-align: center;
+  background-color: #34495e;
+}
+
+#game-name {
+  font-size: 3vw;
+}
+
+#container {
+  height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.4vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 10px;
+  border: none;
+  font-size: 5vw;
+  box-shadow: 0 0 1rem rgb(14, 13, 13);
+  background-color: #34495e;
+}
+
+.resetBtn {
+  position: absolute;
+  top: -2%;
+  right: 10%;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgba(226, 163, 17, 0.869);
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.msgContainer {
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#game-name {
+  color: #fff;
+}
+
+.winner {
+  font-size: 3.5vw;
+  font-weight: 600;
+  color: #8a2be2;
+}
+
+.newBtn {
+  height: 50px;
+}
+
+.newBtn > :first-child {
+  position: absolute;
+  top: 8%;
+  right: 9.5%;
+  padding: 10px 17px;
+  color: #ecec7f;
+  border-radius: 10px;
+  background-color: rgb(164, 125, 198);
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+.newBtn :nth-child(2) {
+  position: absolute;
+  top: 18%;
+  right: 11%;
+  padding: 10px 20px;
+  color: #ecec7f;
+  border-radius: 10px;
+  background-color: rgb(164, 125, 198);
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.hide {
+  display: hide;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 100px;
+}
+
+.horizontal-line {
+  border: none;
+  border-top: 1px solid black;
+  width: 200px;
+}
+
+.diagonal-line {
+  width: 100px;
+  height: 100px;
+  border-bottom: 3px solid rgb(217, 21, 21);
+  border-right: 3px solid black;
+  transform: rotate(45deg);
+}
+
+.strike {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.winning {
+  background-color: #8a2be2;
+}
+
+.changeModeBtn {
+  margin-top: 10vw;
+}
+
+.friendModeBtn,
+.aiModeBtn {
+  border-radius: 10px;
+  background-color: #111;
+}
